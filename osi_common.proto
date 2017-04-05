@@ -5,7 +5,7 @@ option optimize_for = SPEED;
 package osi;
 
 
-//
+///
 // \brief A cartesian 3D vector for positions, velocities or accelerations.
 // 
 // Units are [m] for positions, [m/s] for velocities and [m/s^2] for accelerations.
@@ -13,7 +13,7 @@ package osi;
 message Vector3d
 {
     // The x coordinate.
-    //
+        //
     optional double x = 1;
 
     // The y coordinate.
